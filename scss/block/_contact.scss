@@ -12,7 +12,7 @@
     margin-left: 165;
 }
 .contact__list-list{
-    margin-top: 180px;
+    margin-top: 52px;
     margin-left: 165px;
 }
 .contact__input{
@@ -24,6 +24,19 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 15px;
+}
+.contact__item{
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+}
+.contact__text{
+    width: 400px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
 }
 .contact__input-text{
     display: block;
@@ -49,5 +62,5 @@
     &:active{
         opacity: 0.6;
     }
-
+    
 }
