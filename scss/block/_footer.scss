@@ -1,0 +1,143 @@
+.footer{
+    padding: 54px 0px 59px 0px;
+    background-color: #F3F3F3   ;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    
+}
+.footer__logo{
+    &:hover{
+        opacity: 0.8;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+.footer__top{
+    display: flex;
+    margin-top: -50px;
+}
+.footer__top--time{
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    position: relative;
+    margin-right: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-image: url(../images/schedule.svg);
+        background-size: cover;
+        width: 14px;
+        height: 13px;
+        left: -22px;
+        top: 2px;
+    }
+}
+.footer__top-time{
+    text-decoration: none;
+    margin-top: 0px;
+    color: #333333;
+    display: block;
+    position: relative;
+    margin-right: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}.footer__top--point{
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+.footer__top-tel{
+
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    &:hover{
+        color:#FFBD54;
+    }
+    &:active{
+        opacity: 0.6;
+        color: #333333;
+    }
+}
+.footer__top--tel{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-image: url(../images/phone.svg);
+        background-size: cover;
+        width: 14px;
+        height: 13px;
+        left: -22px;
+        top: 2px;
+    }
+}
+.footer__top-addres{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer__top-link{
+    text-decoration: none;
+    color: #333333;
+    margin-right: 87px;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-image: url(../images/house.svg);
+        background-size: cover;
+        width: 14px;
+        height: 13px;
+        left: -22px;
+        top: 2px;
+    }
+}
+.footer__miny-list{
+    list-style: none;
+}
+.footer__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: 55px;
+    
+}
+
+.footer__link{
+    text-decoration: none;
+    color: #333333;
+    &:hover{
+        color: #FFBD54;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+.footer__time-list{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}

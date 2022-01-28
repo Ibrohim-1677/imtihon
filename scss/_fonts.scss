@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/FuturaPT-regular.woff2") format("woff2"), url("../fonts/FuturaPT-regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'FuturaPT';
+    font-style: medium;
+    font-weight: 500;
+    src: url("../fonts/FuturaPT-bold.woff2") format("woff2"), url("../fonts/FuturaPT-bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'FuturaPT';
+    font-style: bold;
+    font-weight: 900;
+    src: url("../fonts/FuturaPT-bold.woff2") format("woff2"), url("../fonts/FuturaPT-bold.woff") format("woff");
+  }

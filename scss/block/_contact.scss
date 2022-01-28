@@ -1,0 +1,53 @@
+
+.contact__list{
+    display: flex;
+    align-items: center;
+}
+.contact__miny-list{
+    background-image: url(../images/connection-bg.png);
+    background-color: #333333;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 646px;
+    margin-left: 165;
+}
+.contact__list-list{
+    margin-top: 180px;
+    margin-left: 165px;
+}
+.contact__input{
+    display: block;
+    padding: 18px 147px 12px 22px;
+    border: none;
+    margin-right: 21px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.contact__input-text{
+    display: block;
+    padding: 18px 85px 12px 22px;
+    border: none;
+    margin-right: 21px;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.contact__button{
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    border: none;
+    padding: 15px 49px 14px 50px;
+    background-color: #FFBD54;
+    &:hover{
+        background-color: #333333;
+        color: #fff;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+
+}

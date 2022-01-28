@@ -1,0 +1,109 @@
+.reference{
+    margin-bottom: 260px;
+}
+.reference__hero-item{
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 215px;
+    margin-bottom: 100px;
+}
+.reference__title{
+    margin-right: 23px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.reference__box{
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.reference__boxx{
+    margin-left: 30px;
+}
+.reference__title--margin{
+    margin-left: -40px;
+}
+.reference__miny-list{
+    display: flex;
+    list-style: none;
+}
+.reference__time{
+    margin-left: 212px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.reference__item{
+    width: 181px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    
+}
+.reference__text{
+    width: 274px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.reference__link{
+    margin-left: 25px;
+    position: relative;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-image: url(../images/pet.svg);
+        background-size: cover;
+        width: 23px;
+        height: 21px;
+        left: -30px;
+        top: -1px;
+    }
+    &:hover{
+        opacity: 0.8;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+.reference__slesh{
+    margin-right: 8px;
+    color: #3D9CEA;
+}
+.reference__slesh:nth-child(3){
+    margin-right: 0;
+}
+.reference__date{
+    display: flex;
+    align-items: center;
+}
+.reference__images{
+    margin-right: 25px;
+}
+.reference__time-one{
+    padding-right: 35px;
+    margin-left: 55px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.reference__wors{
+    width: 270px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
